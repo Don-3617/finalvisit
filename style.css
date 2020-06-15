@@ -1,0 +1,206 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: url(https://don-3617.github.io/picture/hanako.jpg) center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 1500px;
+  margin: 0;
+  z-index: 0.5;
+}
+
+a {
+  text-decoration: initial;
+  z-index: 2;
+}
+
+.box {
+  width: 960px;
+  background: url(https://don-3617.github.io/picture/sky2.jpeg);
+  background-size: cover;
+  z-index: 2;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.box:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+  z-index: 2;
+}
+
+.box:hover .top {
+  height: 400px;
+  z-index: 2;
+}
+
+.top {
+  background-image: url(https://don-3617.github.io/picture/92811917_2934503526596282_9080199426596667392_o.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  z-index: 2.5;
+  transition: 0.5s;
+}
+
+.top .tag {
+  width: 25px;
+  height: 50px;
+  background-color: #99ceff;
+  float: right;
+  margin-right: 20px;
+  margin-top: 0px;
+  z-index: 2.5;
+}
+
+.top .name {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  letter-spacing: 0px;
+  color: #fffdf0;
+  font-size: 24px;
+  font-weight: 300;
+  background: linear-gradient(transparent 0%, black 90px);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  z-index: 2.5;
+}
+
+.top .name .smallText {
+  font-size: 14px;
+  z-index: 2.5;
+}
+
+.cirbutton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(https://pbs.twimg.com/media/EW7nBD6UYAET4Qo?format=jpg&name=4096x4096);
+  background-size: contain;
+  position: absolute;
+  right: 30px;
+  bottom: -50px;
+  z-index: 2.5;
+  transition: 0.5s;
+}
+
+.cirbutton:hover {
+  transform: rotate(360deg);
+}
+
+.bottom {
+  padding: 10px 20px 20px 20px;
+  z-index: 3;
+}
+
+.bottom li {
+  padding: 5px 0px;
+}
+
+.bottom h3 {
+  display: inline-block;
+}
+
+.bottom ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.buttons {
+  margin-top: 30px;
+  z-index: 3;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
+
+.btnWebsite {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.btnWebsite:hover {
+  background-color: #85c3ff;
+  color: #fff;
+  z-index: 3.1;
+  transform: scale(1.1);
+}
+
+.btnNew {
+  background-color: #fff;
+  float: right;
+  transition: 0.5s;
+}
+
+.btnNew:hover {
+  background-color: #ffd9a1;
+  z-index: 3.5;
+  transform: scale(1.1);
+}
+
+.pic {
+  margin: 30px;
+  z-index: 3.5;
+}
+
+.arietta {
+  min-height: 400px;
+  width: 49%;
+  position: relative;
+  z-index: 3.5;
+  transition: 0.5s;
+}
+
+.kadorin {
+  min-height: 400px;
+  width: 49%;
+  position: relative;
+  z-index: 3.5;
+  transition: 0.5s;
+}
+
+.arietta:hover {
+  transform: scale(1.2);
+}
+
+.kadorin:hover {
+  transform: scale(1.2);
+}
+
+.more {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.more:hover {
+  background-color: #fff6ba;
+  transform: scale(1.1);
+}
+
+.black {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  transition: 0.5s;
+}
